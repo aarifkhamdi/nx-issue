@@ -1,0 +1,57 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+.fleet
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+secrets/*
+!secrets/.env.example
+!secrets/firebase
+secrets/firebase/*
+!secrets/firebase/config.json
+.adminjs/
+
+docker/compose/docker_data
+
+apps/*/secrets/*
+!apps/*/secrets/.env.example
+tools/*/secrets/*
+!tools/*/secrets/.env.example
+
+apps/*/src/prisma/client
+apps/*/src/prisma/.env
